@@ -14,3 +14,7 @@ html, body, #app {
 .el-card {
   box-shadow: 0 1PX 1PX rgba(0, 0, 0, 0.15) !important;
 }
+
+.el-cascader-panel {
+  height: 200px; 
+}
