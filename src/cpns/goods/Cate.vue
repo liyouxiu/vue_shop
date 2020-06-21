@@ -65,7 +65,7 @@
           <el-input v-model="addCateForm.cat_name"></el-input>
         </el-form-item>
         <el-form-item label="父级分类：">
-          <!-- :options="ParentCateList"用来指定数据源 -->
+          <!-- 级联选择器 -->
           <el-cascader
             v-model=" selectedKeys"
             :options="parentCateList"
@@ -246,7 +246,7 @@ export default {
 
 <style lang="less" scoped>
 .treeTable {
-  margin-top: 15px;
+  margin: 15px 0;
 }
 
 .el-cascader {
